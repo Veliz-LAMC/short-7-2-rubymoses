@@ -43,7 +43,28 @@ header img {
 main {
 	clear: left;
 }
-
+#nav_list ul{
+	list-style-type:none;
+}
+#nav_list li{
+	margin-bottom: 10px;
+}
+#nav_list a{
+	display:blaco;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #800000;
+	background-image: url('../images/right.jpg')
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	box-shadow: 2px 2px 2px #800000;
+}
+#nav_list a:hover {
+	color: #800000;
+	background-color: #f6bb73;
+}
 /* the styles for the section */
 section {
 	width: 575px;
