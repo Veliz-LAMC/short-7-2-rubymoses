@@ -52,13 +52,13 @@ main {
 	margin-bottom: 10px;
 }
 #nav_list a{
-	display:blaco;
+	display:block;
 	padding: 10px;
 	border: 1px solid black;
 	border-radius: 5px;
 	text-decoration: none;
 	color: #800000;
-	background-image: url('../images/right.jpg')
+	background-image: url('../images/right.jpg');
 	background-repeat: no-repeat;
 	background-position: 95% center;
 	box-shadow: 2px 2px 2px #800000;
